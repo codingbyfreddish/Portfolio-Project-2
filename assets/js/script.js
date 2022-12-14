@@ -1,12 +1,14 @@
 const quote = document.getElementById('quote');
-const alternative = document.getElementsByClassName('choice-person');
+const choicePerson = Array.from(document.getElementsByClassName('choice-person'));
 const maxQuotes = 10;
 
 let currentQuote = {};
 let acceptingAnswers = false;
 let quoteCounter = 0;
 let availableQuotes = [];
-let quotes = [ // all 20 quotes
+
+// all 20 quotes, minimize for clearer viewing
+let quotes = [ 
     {
         quote: '"I know that I know nothing"',
         person1: "Socrates",
@@ -179,13 +181,13 @@ startGame = () => {
 
 getNewQuote = () => {
   quoteCounter++;
-  let quoteRNG = Math.floor(Math.random() * availableQuotes.length);
+  const quoteRNG = Math.floor(Math.random() * availableQuotes.length);
   currentQuote = availableQuotes[quoteRNG];
   quote.innerText = currentQuote.quote;
   
-  quotes.forEach(quote => {
-  let number = alternative.dataset['number'];
-  alternative.innerText = currentQuote['alternative' + 'number'];
+  choicePerson.forEach(person => {
+  const number = person.dataset['number'];
+  person.innerText = currentQuote['person' + number];
   })
 };
 
