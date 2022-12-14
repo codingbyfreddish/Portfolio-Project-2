@@ -189,6 +189,21 @@ getNewQuote = () => {
   const number = person.dataset['number'];
   person.innerText = currentQuote['person' + number];
   })
+  
+  availableQuotes.splice(quoteRNG, 1);
+  acceptingAnswers = true;
 };
+
+choicePerson.forEach(person => {
+    person.addEventListener('click', e => {
+      if (!acceptingAnswers) return;
+      
+      acceptingAnswers = false;
+      const selectedPerson = e.target;
+      const selectedAnswer = selectedPerson.dataset['number'];
+      console.log(selectedAnswer);
+      getNewQuote();
+    });
+});
 
 startGame();  
