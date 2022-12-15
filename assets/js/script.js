@@ -1,6 +1,6 @@
 const quote = document.getElementById('quote');
 const choicePerson = Array.from(document.getElementsByClassName('choice-person'));
-const maxQuotes = 10;
+const maxQuotes = 5;
 
 let currentQuote = {};
 let acceptingAnswers = false;
@@ -74,7 +74,7 @@ let quotes = [
         answer: 2,
     },
     {
-        quote: '"Man s knowledge can not extend beyond his own experience"',
+        quote: '"Man\'s knowledge can not extend beyond his own experience"',
         person1: "Nietzsche",
         person2: "Heidegger",
         person3: "Einstein",
@@ -173,13 +173,16 @@ let quotes = [
 
 // functions
 
-startGame = () => {
+runQuoteQuiz = () => {
   quoteCounter = 0;
   availableQuotes = [...quotes];
   getNewQuote();
 };
 
 getNewQuote = () => {
+  if (availableQuotes.length === 0 || quoteCounter >= maxQuotes) {
+    alert("Well done! You still suck in so many areas tho");  // REPLACE before deployment
+  }
   quoteCounter++;
   const quoteRNG = Math.floor(Math.random() * availableQuotes.length);
   currentQuote = availableQuotes[quoteRNG];
@@ -204,14 +207,29 @@ choicePerson.forEach(person => {
   console.log(selectedAnswer);
 
   const answerColor = selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
-  selectedPerson.parentElement.classList.add(answerColor);
+  selectedPerson.classList.add(answerColor);
+
+  if (answerColor === 'correct') {
+    incrementScore();
+  } else {incrementWrongAnswer()};
 
   setTimeout( () => {
-  selectedPerson.parentElement.classList.remove(answerColor);
+  selectedPerson.classList.remove(answerColor);
   getNewQuote();
   }, 1000);
 
   });
 });
 
-startGame();  
+incrementScore = () => {
+  let oldScore = parseInt(document.getElementById("score").innerText);
+    document.getElementById("score").innerText = ++oldScore;
+}
+
+
+incrementWrongAnswer = () => {
+  let oldScore = parseInt(document.getElementById("incorrect").innerText);
+    document.getElementById("incorrect").innerText = ++oldScore;
+}
+
+runQuoteQuiz();  
