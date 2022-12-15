@@ -7,7 +7,7 @@ let acceptingAnswers = false;
 let quoteCounter = 0;
 let availableQuotes = [];
 
-// all 20 quotes, minimize for clearer viewing
+// all 20 quotes, minimize for your codeviewing pleasure
 let quotes = [ 
     {
         quote: '"I know that I know nothing"',
@@ -195,15 +195,23 @@ getNewQuote = () => {
 };
 
 choicePerson.forEach(person => {
-    person.addEventListener('click', e => {
-      if (!acceptingAnswers) return;
+  person.addEventListener('click', e => {
+  if (!acceptingAnswers) return;
       
-      acceptingAnswers = false;
-      const selectedPerson = e.target;
-      const selectedAnswer = selectedPerson.dataset['number'];
-      console.log(selectedAnswer);
-      getNewQuote();
-    });
+  acceptingAnswers = false;
+  const selectedPerson = e.target;
+  const selectedAnswer = selectedPerson.dataset['number'];
+  console.log(selectedAnswer);
+
+  const answerColor = selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
+  selectedPerson.parentElement.classList.add(answerColor);
+
+  setTimeout( () => {
+  selectedPerson.parentElement.classList.remove(answerColor);
+  getNewQuote();
+  }, 1000);
+
+  });
 });
 
 startGame();  
