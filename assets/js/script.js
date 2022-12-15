@@ -173,7 +173,7 @@ let quotes = [
 
 // functions
 
-runQuoteQuiz = () => {
+runQuiz = () => {
   quoteCounter = 0;
   availableQuotes = [...quotes];
   getNewQuote();
@@ -232,4 +232,4 @@ incrementWrongAnswer = () => {
     document.getElementById("incorrect").innerText = ++oldScore;
 }
 
-runQuoteQuiz();  
+runQuiz();  
