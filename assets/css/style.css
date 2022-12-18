@@ -23,6 +23,7 @@ h1 {
 h2 {
   padding: 2rem;
   font-size: 3.4rem;
+  text-align: center;
 }
 
 .container {
@@ -150,4 +151,26 @@ h2 {
   box-shadow: 1px 1px 3px 2px #333; 
   transform: translateY(-0.1rem);
   transition: transform 150ms;
+}
+
+#btn--modal {
+  justify-items: center;
+  align-items: center;
+  padding: .2rem;
+  font-size: 1.9rem;
+}
+
+/* ---modal--- */
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  max-width: 50%;
+  height: 35%;
+  padding: .3rem;
+  font-size: 1.5rem;
+}
+
+.modal::backdrop {
+  background-color: rgba(0 , 0, 0, .2);
 }

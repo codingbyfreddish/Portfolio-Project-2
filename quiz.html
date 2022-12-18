@@ -14,7 +14,7 @@
 <body>
    <div class="container">
         <h1>Who said this?</h1>
-    <div class="quote-container onload=generate();">
+    <div class="quote-container">
         <p id="quote">"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
             Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
             Aenean ultricies mi vitae est. "</p>
@@ -41,10 +41,15 @@
         <p class="scores">Correct Answers: <span id="score">0</span></p>
         <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
        </div>
+       <dialog class="modal" id="modal">
+          <h2>Well done! You rock!</h2>
+          <p>Thank you for playing. Want to play again - hit "Play Again", otherwise just close the window tab.</p>
+          <a href="" class="btn" id="btn--modal">Restart</a>
+       </dialog>
      </div>
     </div> 
 
   <script src="assets/js/script.js"></script>
-  <script src="assets/js/quotes.js"></script>    
+  <script src="assets/js/quotes.mjs"></script>    
 </body>
 </html>  

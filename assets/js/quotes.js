@@ -162,3 +162,5 @@ let quotes = [
         answer: 3,
     },
 ]
+
+//export {quotes};
