@@ -163,12 +163,9 @@ h2 {
 /* ---modal--- */
 
 .modal {
-  display: flex;
-  flex-direction: column;
   max-width: 50%;
-  height: 35%;
   padding: .3rem;
-  font-size: 1.5rem;
+  font-size: 1.1rem;
 }
 
 .modal::backdrop {
