@@ -173,10 +173,7 @@ let quotes = [
   },
 ]
 
-
-// functions
-
-
+// quiz functions
 runQuiz = () => {
   quoteCounter = 0;
   availableQuotes = [...quotes];
@@ -235,6 +232,25 @@ incrementWrongAnswer = () => {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 };
-
-
 runQuiz();
+
+//gradient liner generator
+
+createHex = () => {
+  let hexCode1 = "";
+  let hexValues1 = "0123456789abcdef";
+    
+  for ( let i = 0; i < 6; i++ ) {
+  hexCode1 += hexValues1.charAt(Math.floor(Math.random() * hexValues1.length));
+}
+  return hexCode1;
+};
+  
+generate = () => {
+  let deg = Math.floor(Math.random() *360);
+  let gradient = "linear-gradient(" + deg + "deg, " + "#" + createHex() + ", " + "#" + createHex() +")";
+    
+  document.getElementById("output-color").style.background = gradient;
+  console.log(hexCode1, hexCode2);
+}
+  document.onload = generate();

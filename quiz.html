@@ -12,10 +12,10 @@
 <body>
    <div class="container">
         <h1>Who said this?</h1>
-    <div class="quote-container">
+    <div class="quote-container" id="output-color" onload="generate()">
         <p id="quote">"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
             Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. 
-            Aenean ultricies mi vitae est. "</p>
+            Aenean ultricies mi vitae est."</p>
     </div>
     <div class="choice-container">
         <div class="choice">
@@ -38,7 +38,7 @@
       <div class="score-area">
         <p class="scores">Correct Answers: <span id="score">0</span></p>
         <p class="scores">Incorrect Answers: <span id="incorrect">0</span></p>
-       </div>S
+       </div>
        <dialog class="modal" id="modal">
           <h2>Well done! You rock!</h2>
           <h3>Thank you for playing!</h3> 
@@ -47,7 +47,6 @@
      </div>
     </div> 
 
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/quotes.js"></script>    
+  <script src="assets/js/script.js"></script>  
 </body>
 </html>  
