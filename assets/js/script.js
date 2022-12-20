@@ -217,7 +217,10 @@ choicePerson.forEach(person => {
   setTimeout( () => {
   selectedPerson.classList.remove(answerColor);
   getNewQuote();
+  generate();
   }, 1000);
+
+  
 
   });
 });
