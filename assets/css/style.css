@@ -2,8 +2,8 @@
 
 :root {
   font-size: 62.5%;
-  background-color: #08F8FF;
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23c7ccbd' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23aaa8a4' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23bfc3b9' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23a39e9b' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23b7b9b5' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%239c9392' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23b0b0b2' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23968988' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23a8a6ae' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%238f7e7f' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23a09daa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%23887476' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
+  background-color: #ff7700;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%23cf0087' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%23bd00ab' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%23d50043' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%23b10038' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%23cc00a5' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%23b6006b' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%23d2007c' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%23aa00ad' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23c600ab' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%23a3008d' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23b300c1' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%239b00c4' points='943 900 1210 900 971 687'/%3E%3C/svg%3E");
   background-attachment: fixed;
   background-size: cover;
 }
