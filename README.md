@@ -1,7 +1,7 @@
-# Quiz Game!
+# Quiz Time!
  
  ## Welcome to my second Portfolio Project!
-
+  For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding.The user gets to answer 5 questions out of a 20 question pool. The quotes are all more or less famous all from the ancient greeks right up until the 20's century.
   
 <br>
 <img src="" width="50%">
