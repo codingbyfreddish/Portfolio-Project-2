@@ -171,7 +171,7 @@ let quotes = [
       person4: "Nietzsche",
       answer: 3,
   },
-]
+];
 
 // quiz functions
 runQuiz = () => {
@@ -192,7 +192,7 @@ getNewQuote = () => {
   choicePerson.forEach(person => {
   const number = person.dataset['number'];
   person.innerText = currentQuote['person' + number];
-  })
+  });
   
   availableQuotes.splice(quoteRNG, 1);
   acceptingAnswers = true;
@@ -212,7 +212,7 @@ choicePerson.forEach(person => {
 
   if (answerColor === 'correct') {
     incrementScore();
-  } else {incrementWrongAnswer()};
+  } else {incrementWrongAnswer();}
 
   setTimeout( () => {
   selectedPerson.classList.remove(answerColor);
@@ -228,7 +228,7 @@ choicePerson.forEach(person => {
 incrementScore = () => {
   let oldScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++oldScore;
-}
+};
 
 
 incrementWrongAnswer = () => {
@@ -255,5 +255,5 @@ generate = () => {
     
   document.getElementById("output-color").style.background = gradient;
   console.log(hexCode1, hexCode2);
-}
+};
   document.onload = generate();
