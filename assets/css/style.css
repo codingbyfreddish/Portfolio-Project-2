@@ -59,12 +59,42 @@ h3 {
   justify-content: center;
   align-items: center;
   font-family: 'Playfair Display', serif;
-  font-size: 3.4rem;
+  font-size: 3.6rem;
   font-weight: bold;
   color: black;
   padding: 2rem 0.3rem;
   text-align: center;
-}    
+  animation: fadeIn 5s;
+  -webkit-animation: fadeIn 5s;
+  -moz-animation: fadeIn 5s;
+  -o-animation: fadeIn 5s;
+  -ms-animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
 
 
 .choice-container {
@@ -123,7 +153,7 @@ h3 {
     align-items: center;
     margin: 5px auto;
     width: 60%;
-    font-size: 2.4rem;
+    font-size: 2.6rem;
     color: black;
 }
 
