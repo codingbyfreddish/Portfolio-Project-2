@@ -1,3 +1,5 @@
+// globals
+
 const quote = document.getElementById('quote');
 const choicePerson = Array.from(document.getElementsByClassName('choice-person'));
 const maxQuotes = 5;
@@ -173,12 +175,15 @@ let quotes = [
   },
 ];
 
-// quiz functions
+// functions
+
 runQuiz = () => {
   quoteCounter = 0;
   availableQuotes = [...quotes];
   getNewQuote();
 };
+
+// get new quote 
 
 getNewQuote = () => {
   if (availableQuotes.length === 0 || quoteCounter >= maxQuotes) {
@@ -197,6 +202,8 @@ getNewQuote = () => {
   availableQuotes.splice(quoteRNG, 1);
   acceptingAnswers = true;
 };
+
+// choices
 
 choicePerson.forEach(person => {
   person.addEventListener('click', e => {
@@ -225,6 +232,8 @@ choicePerson.forEach(person => {
   });
 });
 
+// score
+
 incrementScore = () => {
   let oldScore = parseInt(document.getElementById("score").innerText);
     document.getElementById("score").innerText = ++oldScore;
@@ -235,9 +244,10 @@ incrementWrongAnswer = () => {
   let oldScore = parseInt(document.getElementById("incorrect").innerText);
     document.getElementById("incorrect").innerText = ++oldScore;
 };
+
 runQuiz();
 
-//gradient liner generator
+// gradient liner generator
 
 createHex = () => {
   let hexCode1 = "";

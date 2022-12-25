@@ -41,7 +41,7 @@ h3 {
   align-items: center;
 }
   
-/* --- quote and choices area --- */ 
+/* quote and choices area */ 
 
 .quote-container {
   display: flex;
@@ -112,14 +112,13 @@ h3 {
   background-color: red;
 }
 
-
-
-/* --- score area --- */ 
+/* score area */ 
 
 .score-area {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-wrap: wrap;
     margin: 5px auto;
     width: 60%;
     font-size: 2.6rem;
@@ -136,9 +135,7 @@ h3 {
     font-weight: bold;
 }
 
-
-
-/* --- buttons --- */
+/* buttons */
 
 .btn {
   width: 20rem;
@@ -149,7 +146,7 @@ h3 {
   text-align: center;
   text-decoration: none;
   color: #333;
-  background-color: rgb(211,211,211);
+  background-color: rgba(220,220,220, 0.9);
   border: 0.2rem solid rgb(51, 49, 49);
 }
 
@@ -167,7 +164,7 @@ h3 {
   font-size: 1.9rem;
 }
 
-/* ---modal--- */
+/* modal */
 
 .modal {
   max-width: 50%;
@@ -179,5 +176,25 @@ h3 {
   background-color: rgba(0 , 0, 0, 0.1);
 }
 
-/* --- media queries --- */
+/* media queries */
+
+/* for a max width of 1200px (desktop) */
+@media screen and (max-width: 1200px) {
+  
+}
+
+/* for a max width of 992px (laptops) */
+@media screen and (max-width: 992px) {
+  
+  }
+
+/* for a max width of 768px (tablets) */
+@media screen and (max-width: 768px) {
+  
+}
+
+/* for a max width of 576px (mobile) */
+@media screen and (max-width: 576px) {
+  
+  } 
 
