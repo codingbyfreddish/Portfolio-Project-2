@@ -37,11 +37,11 @@
 
 * ### Favicon
     * Displayed on the tab. 
-    *  
+    * Choose the thinking emoji to emphasize the philosophy and "deep thinking" vibe.
     <br>
 <img src="" width="50%">
 
-* #### Navigation
+* #### 
     
     <br>
     <img src="" width="50%">
@@ -61,7 +61,7 @@
     <br>
     <img src="" width="50%">
 
-* #### Contact Page
+* #### 
    
     <br>
     <img src="" width="50%">
@@ -108,20 +108,14 @@
 ## Credits
 
 ### Content
-* [The Love Maths Project]() from [CI](https://codeinstitute.net) in regards of both design/layout ideas as well as code. T
-
+* [The Love Maths Project](https://github.com/codingbyfreddish/love-maths) from [CI](https://codeinstitute.net) in regards of both design/layout ideas as well as code. The scoring system is code from there.
 * All the course material from [CI's 'Full Stack Developer'](https://codeinstitute.net/se/full-stack-software-development-diploma/) curriculum leading up to this project.
-
-*  
+* Some code and ideas from [Code Geek](https://www.youtube.com/@codegeek9098), [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified), [CodingNepal](https://www.youtube.com/@CodingNepal) and [Codepen](https://codepen.io/)
 * [Stack Overflow](https://stackoverflow.com/) for various things along the project.
-* 
+* Background is from [svgbackgrounds.com/](https://www.svgbackgrounds.com/)
 * [Google Fonts](https://googlefonts.com) is used for the text fonts. 
 * [Favicon](https://favicon.io/) is used for the tab icon.
 * The quotes are from [https://www.the-philosophy.com/](https://www.the-philosophy.com/top-20-philosophical-quotes)
-
-### Media
-* The marbel background image are taken from [Freepik](freepik.com)
-
 
 ## Acknowledgments
 * **My Mentor Ronan McClelland was a invaluable help with tips and resources to help me overcome every obsticle i faced. Can't thank him enough.**
