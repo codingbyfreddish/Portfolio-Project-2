@@ -1,7 +1,7 @@
 # Quiz Time!
  
  ## Welcome to my second Portfolio Project!
-  For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding.The user gets to answer 5 questions out of a 20 question pool. The quotes are all more or less famous all from the ancient greeks right up until the 20's century.
+  For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding. The user gets to answer 5 random questions out of a 20 question pool. Theres a mainpage where you click the start button to come to the quiz page. All the quotes are more or less famous all from the ancient greeks right up until the 20's century.
   
 <br>
 <img src="" width="50%">
@@ -19,17 +19,14 @@
 ## Design
 
 ### Colour Scheme
-
+* 
 
 ### Typography
-
-
-
-### Imagery
-
+* For this pages the fonts are Lato and Playfair Display. Playfair Display for the quotes and Lato for everything els. I choose Lato because of the modern/stylish way it looks and Playfair Display for the quotes because of the more classic look.
 
 
 ### Wireframes
+* 
 
 <hr>
 
@@ -39,7 +36,7 @@
     * Displayed on the tab. 
     * Choose the thinking emoji to emphasize the philosophy and "deep thinking" vibe.
     <br>
-<img src="" width="50%">
+<img src="/assets/images/favicon_quiz.png" width="50%">
 
 * #### 
     
