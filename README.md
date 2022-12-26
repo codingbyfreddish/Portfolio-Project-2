@@ -9,7 +9,7 @@
 
 ## Technologies Used
 
- For this project we were allowed to use two programming languages: 
+ For this project we were allowed to use these three programming languages: 
 
  - [HTML5](https://sv.wikipedia.org/wiki/HTML5)
  - [CSS](https://en.wikipedia.org/wiki/CSS)
@@ -19,15 +19,15 @@
 ## Design
 
 ### Colour Scheme
-* 
+* My mentor from [CI](https://codeinstitute.net) gave me the idea for the random gradient linear effect behind the quotes. The background is blueish/grayish and yellow "rose pedal"-template.
 
 ### Typography
 * For this pages the fonts are Lato and Playfair Display. Playfair Display for the quotes and Lato for everything els. I choose Lato because of the modern/stylish way it looks and Playfair Display for the quotes because of the more classic look.
 
-
 ### Wireframes
 * Wireframeswise i wanted to with something simple and pragmatic, to focus on the quiz-part itself.
-<img src="assets/images/wireframe_main.png" width="50%"><img src="assets/images/wireframe_quiz.png" width="50%">
+<br>
+<img src="assets/images/wireframe_main.png" width="25%"><img src="assets/images/wireframe_quiz.png" width="25%">
 
 <hr>
 
@@ -116,5 +116,5 @@
 * The quotes are from [https://www.the-philosophy.com/](https://www.the-philosophy.com/top-20-philosophical-quotes)
 
 ## Acknowledgments
-* **My Mentor Ronan McClelland was a invaluable help with tips and resources to help me overcome every obsticle i faced. Can't thank him enough.**
+* **My Mentor Ronan McClelland came up with some great ideas to really elevate the project.**
 
