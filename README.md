@@ -26,7 +26,8 @@
 
 
 ### Wireframes
-* 
+* Wireframeswise i wanted to with something simple and pragmatic, to focus on the quiz-part itself.
+<img src="assets/images/wireframe_main.png" width="50%"><img src="assets/images/wireframe_quiz.png" width="50%">
 
 <hr>
 
@@ -36,7 +37,7 @@
     * Displayed on the tab. 
     * Choose the thinking emoji to emphasize the philosophy and "deep thinking" vibe.
     <br>
-<img src="/assets/images/favicon_quiz.png" width="50%">
+<img src="assets/images/favicon_quiz.png" width="50%">
 
 * #### 
     
