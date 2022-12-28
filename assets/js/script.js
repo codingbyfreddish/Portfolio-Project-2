@@ -227,8 +227,6 @@ choicePerson.forEach(person => {
   generate();
   }, 1000);
 
-  
-
   });
 });
 
