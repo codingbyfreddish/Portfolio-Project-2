@@ -1,4 +1,4 @@
-// globals
+// globals (contains code from Code Geek)
 
 const quote = document.getElementById('quote');
 const choicePerson = Array.from(document.getElementsByClassName('choice-person'));
@@ -10,7 +10,7 @@ let acceptingAnswers = false;
 let quoteCounter = 0;
 let availableQuotes = [];
 
-// all 20 quotes
+// all 20 quotes (quotes from the-philosophy.com)
 
 let quotes = [ 
   {
@@ -175,7 +175,7 @@ let quotes = [
   },
 ];
 
-// functions
+// functions (contains code from Code Geek)
 
 runQuiz = () => {
   quoteCounter = 0;
@@ -183,7 +183,7 @@ runQuiz = () => {
   getNewQuote();
 };
 
-// get new quote 
+// get new quote (contains code from Code Geek)
 
 getNewQuote = () => {
   if (availableQuotes.length === 0 || quoteCounter >= maxQuotes) {
@@ -203,7 +203,7 @@ getNewQuote = () => {
   acceptingAnswers = true;
 };
 
-// choices
+// choices (contains code from Code Geek)
 
 choicePerson.forEach(person => {
   person.addEventListener('click', e => {
@@ -230,7 +230,7 @@ choicePerson.forEach(person => {
   });
 });
 
-// score
+// score (code from code institute; love maths project)
 
 incrementScore = () => {
   let oldScore = parseInt(document.getElementById("score").innerText);
@@ -245,7 +245,7 @@ incrementWrongAnswer = () => {
 
 runQuiz();
 
-// gradient liner generator
+// gradient liner generator (contains code from codepen.io)
 
 createHex = () => {
   let hexCode1 = "";
