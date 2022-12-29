@@ -33,11 +33,16 @@
 
 ## Features
 
+* ### Background 
+    * The background is "rose pedals" from svgbackgrounds.com. 
+    <br>
+    <img src="assets/images/background.png" width="40%">
+
 * ### Favicon
     * Displayed on the tab. 
     * Choose the thinking emoji to emphasize the philosophy and "deep thinking" vibe.
     <br>
-<img src="assets/images/favicon_quiz.png" width="20%">
+    <img src="assets/images/favicon_quiz.png" width="20%">
 
 * ### Start button
     * Takes the user to the quiz page
