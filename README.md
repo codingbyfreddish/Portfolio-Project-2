@@ -37,32 +37,35 @@
     * Displayed on the tab. 
     * Choose the thinking emoji to emphasize the philosophy and "deep thinking" vibe.
     <br>
-<img src="assets/images/favicon_quiz.png" width="50%">
+<img src="assets/images/favicon_quiz.png" width="20%">
 
-* #### 
-    
+* ### Start button
+    * Takes the user to the quiz page
     <br>
-    <img src="" width="50%">
+    <img src="assets/images/start quiz btn.png" width="20%">
     
-* #### 
-     
+* ### The Quote
+    * Random gradient linear background that changes with the quote
+    * A total for 20 diffrent quotes.<br>
+    <img src="assets/images/quotecontainer.png" width="40%">
+    
+* ### The Choices
+    * 4 diffrent alternatives
+    * Right answer gives a green background, wrong answer gives a red background.
+    * All the choices have one or more Quotes included in the 20 quotepool.<br>
+    <img src="assets/images/choices.png" width="30%">
+    
+ * ### Scoring systen
+    * Keeps score. The user gets 1 correct answer for a right answer and a incorrect score for a wrong answer.
     <br>
-    <img src="" width="40%">
-    
-* #### 
-    
-    <br>
-    <img src="" width="60%">
-    
- * #### 
-    
-    <br>
-    <img src="" width="50%">
+    <img src="assets/images/correct.png" width="20%">
+    <img src="assets/images/incorrect.png" width="20%">
 
-* #### 
-   
+* ### Modal
+    * After 5 quotes a modal pops up. 
+    * The user is told to either refresh the page to play again or close the tab.
     <br>
-    <img src="" width="50%">
+    <img src="assets/images/modal.png" width="40%">
 
 <hr>
 
