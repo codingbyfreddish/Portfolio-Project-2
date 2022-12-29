@@ -11,7 +11,7 @@
 
  For this project we were allowed to use these three programming languages: 
 
- - [HTML5](https://sv.wikipedia.org/wiki/HTML5)
+ - [HTML](https://sv.wikipedia.org/wiki/HTML5)
  - [CSS](https://en.wikipedia.org/wiki/CSS)
  - [Javascript](https://en.wikipedia.org/wiki/JavaScript)
 <hr>
