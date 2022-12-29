@@ -203,7 +203,7 @@ getNewQuote = () => {
   acceptingAnswers = true;
 };
 
-// choices (contains code from Code Geek)
+// choices (contains code from Code Geek, code institute; love maths project)
 
 choicePerson.forEach(person => {
   person.addEventListener('click', e => {
