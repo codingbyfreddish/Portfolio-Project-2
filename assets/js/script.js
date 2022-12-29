@@ -247,21 +247,21 @@ runQuiz();
 
 // gradient liner generator (contains code from codepen.io)
 
-createHex = () => {
-  let hexCode1 = "";
-  let hexValues1 = "0123456789abcdef";
-    
-  for ( let i = 0; i < 6; i++ ) {
-  hexCode1 += hexValues1.charAt(Math.floor(Math.random() * hexValues1.length));
-}
-  return hexCode1;
-};
+  createHex = () => {
+    let hexCode = "";
+    let hexValue = "0123456789abcdef";
+  
+    for ( let i = 0; i < 6; i++ ) {
+      hexCode += hexValue.charAt(Math.floor(Math.random() * hexValue.length));
+    }
+    return hexCode;
+  };
   
 generate = () => {
   let deg = Math.floor(Math.random() *360);
   let gradient = "linear-gradient(" + deg + "deg, " + "#" + createHex() + ", " + "#" + createHex() +")";
     
   document.getElementById("output-color").style.background = gradient;
-  console.log(hexCode1, hexCode2);
+  console.log(createHex());
 };
   document.onload = generate();
