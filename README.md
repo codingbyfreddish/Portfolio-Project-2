@@ -1,7 +1,7 @@
 # Quiz Time!
  
  ## Welcome to my second Portfolio Project!
-  For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding. The user gets to answer 5 random questions out of a 20 question pool. Theres a mainpage where you click the start button to come to the quiz page. All the quotes are more or less famous all from the ancient greeks right up until the 20's century.
+  For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding. The user gets to answer 5 random questions out of a 20 question pool. Theres a mainpage where you click the start button to come to the quiz page. All the quotes are more or less famous all from the ancient greeks right up until the 20's century.<br>The goal with this project is to make an fun, challenging quiz for eveyone to enjoy. But also a chance for the user to sit down and really read and grasp what the quotes means (thats why there is no timelimit to answer).
   
 <br>
 <img src="" width="50%">
@@ -78,7 +78,7 @@
 
 ## Testing
 
-* Tested on ... diffrent browsers:  
+* Tested on three diffrent browsers: Edge, Chrome and Firefox.  
 * Checked responsiveness (using dev tools) on Desktops, Laptops, Tablets and Mobile. 
 
 ### Validator Testing
@@ -87,11 +87,11 @@
     * No errors or warnings returned when passing through the official W3C validator.
 
 * #### CSS 
-    * Two errors returned when testing code through the official (Jigsaw) validator: "Unknown pseudo-element or pseudo-class :modal" on line 166 and 177. Changed to #modal in style.css.
+    * No errors or warnings returned when passing through the official (Jigsaw) validator.
 
 * #### Javascript
-    * There were 34 warnings when testing code through the JSHint validator. 35 of them where "const/let/arrowfunction is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." and 1 warning was 
-    198	[number] is better written in dot notation. No corrections were made.
+    * There were 34 warnings when testing code through the JSHint validator. 33 of them where "const/let/arrowfunction is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." and 1 warning was 
+    "198 [number] is better written in dot notation." No corrections were made.
 
 * #### Lighthouse Score
     * Checked both main page and contact page using lighthouse (main page left, quiz page right)
@@ -107,7 +107,7 @@
 <hr>
 
 ### Deployment
-* The website was deployed to GitHub pages. The steps to deploy are as follows:
+* The website was deployed to GitHub pages. The steps to deploy are as follows (when using [Gitpod](https://www.gitpod.io/)):
     * In the GitHub repository, navigate to the 'Settings' tab.
     * From the source section drop-down menu, select the 'Master Branch'.
     * Once the master branch has been selected, the page provided the link to the completed website. 
