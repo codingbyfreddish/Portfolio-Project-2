@@ -86,20 +86,22 @@
     * No errors or warnings returned when passing through the official W3C validator.
 
 * #### CSS 
-    * No errors or warnings returned when passing through the official (Jigsaw) validator.
+    * Two errors returned when testing code through the official (Jigsaw) validator: "Unknown pseudo-element or pseudo-class :modal" on line 166 and 177. Since the pseudo-element is needed for showing the backdrop correct, no corrections were made.
 
 * #### Javascript
+    * There were 34 warnings when testing code through the JSHint validator. 35 of them where "const/let/arrowfunction is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." and 1 warning was 
+    198	[number] is better written in dot notation. No corrections were made.
 
-* #### Lighthouse (in chrome dev tools)
-    * Checked both main page and contact page using lighthouse (main page right, contact page left)
+* #### Lighthouse Score
+    * Checked both main page and contact page using lighthouse (main page left, quiz page right)
 <br>
-<img src="" width="40%">
-<img src="" width="40%">   
+<img src="assets/images/lh_mainpage.png" width="40%">
+<img src="assets/images/lh_quizpage.png" width="40%">   
 <hr>
 
 ### Bugs
 
-#### Solved bugs
+#### No major bugs encountered
 
 <hr>
 

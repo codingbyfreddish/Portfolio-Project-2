@@ -24,7 +24,7 @@ h1 {
 
 h2 {
   padding: 1rem;
-  margin: 0 autoSSS;
+  margin: 0 auto;
   font-size: 3.4rem;
   text-align: center;
 }
@@ -215,4 +215,3 @@ h3 {
       font-size: 2.2rem;
     }
   } 
-
