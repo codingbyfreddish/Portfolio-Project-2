@@ -61,13 +61,14 @@
     <img src="assets/images/choices.png" width="30%">
     
  * ### Scoring systen
-    * Keeps score. The user gets 1 correct answer for a right answer and a incorrect score for a wrong answer.
+    * Keeps score. The user gets a correct answer for a right answer and a incorrect score for a wrong answer.
     <br>
     <img src="assets/images/correct.png" width="20%">
     <img src="assets/images/incorrect.png" width="20%">
 
 * ### Modal
     * After 5 quotes a modal pops up. 
+    * Backdrop gives the background a dark tone.
     * The user is told to either refresh the page to play again or close the tab.
     <br>
     <img src="assets/images/modal.png" width="40%">
@@ -86,7 +87,7 @@
     * No errors or warnings returned when passing through the official W3C validator.
 
 * #### CSS 
-    * Two errors returned when testing code through the official (Jigsaw) validator: "Unknown pseudo-element or pseudo-class :modal" on line 166 and 177. Since the pseudo-element is needed for showing the backdrop correct, no corrections were made.
+    * Two errors returned when testing code through the official (Jigsaw) validator: "Unknown pseudo-element or pseudo-class :modal" on line 166 and 177. Changed to #modal in style.css.
 
 * #### Javascript
     * There were 34 warnings when testing code through the JSHint validator. 35 of them where "const/let/arrowfunction is available in ES6 (use 'esversion: 6') or Mozilla JS extensions (use moz)." and 1 warning was 
