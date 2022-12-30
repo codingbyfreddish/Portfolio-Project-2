@@ -4,7 +4,7 @@
   For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding. The user gets to answer 5 random questions out of a 20 question pool. Theres a mainpage where you click the start button to come to the quiz page. All the quotes are more or less famous all from the ancient greeks right up until the 20's century.<br>The goal with this project is to make a fun, challenging quiz for eveyone to enjoy. But also a chance for the user to sit down and really read and grasp what the quotes means (thats why there is no timelimit to answer).
   
 <br>
-<img src="" width="50%">
+<img src="assets/images/amiresponsive.png" width="30%">
 <hr>
 
 ## Technologies Used
