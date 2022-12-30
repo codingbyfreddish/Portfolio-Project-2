@@ -212,7 +212,6 @@ choicePerson.forEach(person => {
   acceptingAnswers = false;
   const selectedPerson = e.target;
   const selectedAnswer = selectedPerson.dataset['number'];
-  console.log(selectedAnswer);
 
   const answerColor = selectedAnswer == currentQuote.answer ? 'correct' : 'incorrect';
   selectedPerson.classList.add(answerColor);
