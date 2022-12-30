@@ -124,7 +124,7 @@
 * [The Love Maths Project](https://github.com/codingbyfreddish/love-maths) from [CI](https://codeinstitute.net) in regards of both design/layout ideas as well as code. The scoring system is code from there.
 * All the course material from [CI's 'Full Stack Developer'](https://codeinstitute.net/se/full-stack-software-development-diploma/) curriculum leading up to this project.
 * Some code, ideas and general javascript knowledge (such f.e arrowfunctions) from [Code Geeks quiz tutorial](https://www.youtube.com/watch?v=Opje9VBrNfg&t=3208s&ab_channel=CodeGeek), [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified), [CodingNepal](https://www.youtube.com/@CodingNepal) and [Codepen](https://codepen.io/). 
-* During the project i got alot of ideas, learned alot and got was greatly influensed by these sources mentioned above.
+* During the project i got alot of ideas, learned alot and was greatly influensed by these sources mentioned above.
 * [Stack Overflow](https://stackoverflow.com/) for various things along the project.
 * Background is from [svgbackgrounds.com/](https://www.svgbackgrounds.com/)
 * [Google Fonts](https://googlefonts.com) is used for the text fonts. 
