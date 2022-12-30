@@ -95,7 +95,7 @@
     "198 [number] is better written in dot notation." No corrections were made.
 
 * #### Lighthouse Score
-    * Checked both main page and quiz page using lighthouse (main page left, quiz page right)
+    * Checked both main page and quiz page using lighthouse (main page upper, quiz page lower)
 <br>
 <img src="assets/images/lh_mainpage.png" width="40%">
 <img src="assets/images/lh_quizpage.png" width="40%">   
