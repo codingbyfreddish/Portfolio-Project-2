@@ -110,9 +110,11 @@
 ### Deployment
 * The website was deployed to GitHub pages. The steps to deploy are as follows (when using [Gitpod](https://www.gitpod.io/)):
     * In the GitHub repository, navigate to the 'Settings' tab.
-    * From the source section drop-down menu, select the 'Master Branch'.
-    * Once the master branch has been selected, the page provided the link to the completed website. 
-    * The live website can be found [here](link)
+    * From the meny on the left, select the 'Pages'.
+    * Under the first category "Build and deployment", select "main" in the sub-category "Branch".
+    * Press the save-button.
+    * "Your site is now live." *happy dance*
+    * The live website can be found [here](https://codingbyfreddish.github.io/Portfolio-Project-2/)
 <hr>
 
 ## Credits
