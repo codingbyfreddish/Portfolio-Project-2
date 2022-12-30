@@ -1,4 +1,4 @@
-// globals (contains code from Code Geek)
+// globals
 
 const quote = document.getElementById('quote');
 const choicePerson = Array.from(document.getElementsByClassName('choice-person'));
@@ -10,7 +10,7 @@ let acceptingAnswers = false;
 let quoteCounter = 0;
 let availableQuotes = [];
 
-// all 20 quotes (quotes from the-philosophy.com)
+// all 20 quotes
 
 let quotes = [ 
   {
@@ -175,7 +175,7 @@ let quotes = [
   },
 ];
 
-// functions (contains code from Code Geek)
+// functions
 
 runQuiz = () => {
   quoteCounter = 0;
@@ -183,7 +183,7 @@ runQuiz = () => {
   getNewQuote();
 };
 
-// get new quote (contains code from Code Geek)
+// get new quote
 
 getNewQuote = () => {
   if (availableQuotes.length === 0 || quoteCounter >= maxQuotes) {
@@ -203,7 +203,7 @@ getNewQuote = () => {
   acceptingAnswers = true;
 };
 
-// choices (contains code from Code Geek, code institute; love maths project)
+// choices
 
 choicePerson.forEach(person => {
   person.addEventListener('click', e => {
@@ -230,7 +230,7 @@ choicePerson.forEach(person => {
   });
 });
 
-// score (code from code institute; love maths project)
+// score
 
 incrementScore = () => {
   let oldScore = parseInt(document.getElementById("score").innerText);
@@ -245,7 +245,7 @@ incrementWrongAnswer = () => {
 
 runQuiz();
 
-// gradient liner generator (contains code from codepen.io)
+// gradient liner generator 
 
   createHex = () => {
     let hexCode = "";
@@ -262,6 +262,5 @@ generate = () => {
   let gradient = "linear-gradient(" + deg + "deg, " + "#" + createHex() + ", " + "#" + createHex() +")";
     
   document.getElementById("output-color").style.background = gradient;
-  console.log(createHex());
 };
   document.onload = generate();

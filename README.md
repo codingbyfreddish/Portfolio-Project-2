@@ -80,6 +80,7 @@
 ## Testing
 
 * Tested on three diffrent browsers: Edge, Chrome and Firefox.  
+* Tested it with dev tools, playing the quiz itself.
 * Checked responsiveness (using dev tools) on Desktops, Laptops, Tablets and Mobile. 
 
 ### Validator Testing
@@ -122,12 +123,14 @@
 ### Content
 * [The Love Maths Project](https://github.com/codingbyfreddish/love-maths) from [CI](https://codeinstitute.net) in regards of both design/layout ideas as well as code. The scoring system is code from there.
 * All the course material from [CI's 'Full Stack Developer'](https://codeinstitute.net/se/full-stack-software-development-diploma/) curriculum leading up to this project.
-* Some code, ideas and general javascript knowledge (such f.e arrowfunctions) from [Code Geeks quiz tutorial](https://www.youtube.com/watch?v=Opje9VBrNfg&t=3208s&ab_channel=CodeGeek), [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified), [CodingNepal](https://www.youtube.com/@CodingNepal) and [Codepen](https://codepen.io/)
+* Some code, ideas and general javascript knowledge (such f.e arrowfunctions) from [Code Geeks quiz tutorial](https://www.youtube.com/watch?v=Opje9VBrNfg&t=3208s&ab_channel=CodeGeek), [Web Dev Simplified](https://www.youtube.com/@WebDevSimplified), [CodingNepal](https://www.youtube.com/@CodingNepal) and [Codepen](https://codepen.io/). 
+* During the project i got alot of ideas, learned alot and got was greatly influensed by these sources mentioned above.
 * [Stack Overflow](https://stackoverflow.com/) for various things along the project.
 * Background is from [svgbackgrounds.com/](https://www.svgbackgrounds.com/)
 * [Google Fonts](https://googlefonts.com) is used for the text fonts. 
 * [Favicon](https://favicon.io/) is used for the tab icon.
 * The quotes are from [https://www.the-philosophy.com/](https://www.the-philosophy.com/top-20-philosophical-quotes)
+* Wireframes from [Balsamiq](https://balsamiq.com/)
 
 ## Acknowledgments
 * **My Mentor Ronan McClelland came up with some great ideas to really elevate the project, and for future projects as well. Thank you Ronan!**
