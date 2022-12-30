@@ -1,7 +1,7 @@
 # Quiz Time!
  
  ## Welcome to my second Portfolio Project!
-  For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding. The user gets to answer 5 random questions out of a 20 question pool. Theres a mainpage where you click the start button to come to the quiz page. All the quotes are more or less famous all from the ancient greeks right up until the 20's century.<br>The goal with this project is to make an fun, challenging quiz for eveyone to enjoy. But also a chance for the user to sit down and really read and grasp what the quotes means (thats why there is no timelimit to answer).
+  For my 2nd project i choose a quizgame. This was a fun way to incorperate my love for philosopy aswell as coding. The user gets to answer 5 random questions out of a 20 question pool. Theres a mainpage where you click the start button to come to the quiz page. All the quotes are more or less famous all from the ancient greeks right up until the 20's century.<br>The goal with this project is to make a fun, challenging quiz for eveyone to enjoy. But also a chance for the user to sit down and really read and grasp what the quotes means (thats why there is no timelimit to answer).
   
 <br>
 <img src="" width="50%">
@@ -45,6 +45,7 @@
     <img src="assets/images/favicon_quiz.png" width="20%">
 
 * ### Start button
+    * On the main page.
     * Takes the user to the quiz page
     <br>
     <img src="assets/images/start quiz btn.png" width="20%">
@@ -57,7 +58,7 @@
 * ### The Choices
     * 4 diffrent alternatives
     * Right answer gives a green background, wrong answer gives a red background.
-    * All the choices have one or more Quotes included in the 20 quotepool.<br>
+    * All the choices have one or more Quotes included in the 20 quote pool.<br>
     <img src="assets/images/choices.png" width="30%">
     
  * ### Scoring systen
@@ -94,7 +95,7 @@
     "198 [number] is better written in dot notation." No corrections were made.
 
 * #### Lighthouse Score
-    * Checked both main page and contact page using lighthouse (main page left, quiz page right)
+    * Checked both main page and quiz page using lighthouse (main page left, quiz page right)
 <br>
 <img src="assets/images/lh_mainpage.png" width="40%">
 <img src="assets/images/lh_quizpage.png" width="40%">   
@@ -127,5 +128,5 @@
 * The quotes are from [https://www.the-philosophy.com/](https://www.the-philosophy.com/top-20-philosophical-quotes)
 
 ## Acknowledgments
-* **My Mentor Ronan McClelland came up with some great ideas to really elevate the project.**
+* **My Mentor Ronan McClelland came up with some great ideas to really elevate the project, and for future projects as well. Thank you Ronan!**
 
